@@ -3,9 +3,9 @@
 # bump: xeve /XEVE_VERSION=([\d.]+)/ https://github.com/mpeg5/xeve.git|*
 # bump: xeve after ./hashupdate Dockerfile XEVE $LATEST
 # bump: xeve link "CHANGELOG" https://github.com/mpeg5/xeve/releases/tag/v$LATEST
-ARG XEVE_VERSION=0.5.1
+ARG XEVE_VERSION=0.7.0
 ARG XEVE_URL="https://github.com/mpeg5/xeve/archive/refs/tags/v$XEVE_VERSION.tar.gz"
-ARG XEVE_SHA256=238c95ddd1a63105913d9354045eb329ad9002903a407b5cf1ab16bad324c245
+ARG XEVE_SHA256=f60950d063f52adf11ed7196c0bbb0503fa107b0e43af06bdc81fecc24f2a62e
 
 # Must be specified
 ARG ALPINE_VERSION
